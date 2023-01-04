@@ -7,7 +7,15 @@
 )
 */
 
-CREATE TABLE 'Science_class'(
+CREATE TABLE Science_Class(
+    Enrollment_No INT,
+    Name VARCHAR,
+    Science_Marks INT
+);
+
+/* OR */
+
+create table Science_Class(
     Enrollment_No INT,
     Name VARCHAR,
     Science_Marks INT

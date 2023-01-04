@@ -5,7 +5,7 @@ insert into science_class values(1, 'sapana', 25);
 insert into science_class (Enrollment_No, Name, Science_Marks) values (2, 'bipana', 26);
 
 /* insert multiple rows */
-/* Insert the following data into Science_class using insert into command 
+/* Insert the following data into Science_Class using insert into command 
 1 Popeye 33
 2 Olive 54
 3 Brutus 98
@@ -28,4 +28,4 @@ copy tabel_name (col1,col2,col3) from '<file path>'
 Type of file and header: only works on CSV File
 
 */
-copy science_class from 'data/student.csv' delimiter ',' csv header;
+copy Science_Class from 'data/student.csv' delimiter ',' csv header;
