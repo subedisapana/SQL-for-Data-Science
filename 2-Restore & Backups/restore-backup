@@ -1,11 +1,11 @@
-Restore:
+**Restore:**
 Inorder to restore a table that we have in tar file, 
 1. first off, you need to create a database named under suitable name on pgadmin (prefer    pgadmin).This creates a blank database. 
 2. Right click on created database, select restore
 3. You need to provide a file format which is obviously tar and provide a file path
    and restore it.
 
-Backup:
+**Backup:**
 1. Right click on that table loaded database.
 2. Select the backup option
 3. Provide the file format and give name to the backup folder.
