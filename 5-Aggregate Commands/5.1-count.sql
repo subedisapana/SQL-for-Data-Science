@@ -31,8 +31,6 @@ This will return the number of rows in the specified table where the value of th
 select count(*) fron Sales;
 
 
-
-
 -- 1. How many orders that particular customer has given? (total number of orders made)
 
 select count(distinct order_id) as "No of order made by CG-12520"
@@ -45,8 +43,17 @@ select count(order_line) as "No of products ordered"
 from Sales
 where customer_id = 'CG-12520';
 
+
 --2. How many products that customer has ordered?
 
+-- table has
+-- product1 | order1
+-- product2 | order1
+-- product3 | order2
+
+select count(order_line) as "No. of products ordered"
+from Sales
+where customer_id = 'CG-12520';
 
 /*
 It's also possible to use the COUNT function with other aggregate functions such as 
