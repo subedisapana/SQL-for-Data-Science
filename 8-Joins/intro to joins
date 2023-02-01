@@ -1,0 +1,13 @@
+
+A join in SQL is used to combine rows from two or more tables based on a related column between them. There are several types of joins in SQL, including:
+
+INNER JOIN: Returns only the rows that have matching values in both tables.
+
+LEFT JOIN (or LEFT OUTER JOIN): Returns all the rows from the left table and the matching rows from the right table, and NULL values for non-matching rows from the right table.
+
+RIGHT JOIN (or RIGHT OUTER JOIN): Returns all the rows from the right table and the matching rows from the left table, and NULL values for non-matching rows from the left table.
+
+FULL JOIN (or FULL OUTER JOIN): Returns all the rows from both tables, and NULL values for non-matching rows.
+
+The join is performed based on a specific condition known as the join condition, which specifies how the rows from the two tables are matched. The join condition is specified 
+
